@@ -1,3 +1,11 @@
+/*
+ * File-Lockf version 0.20
+ *
+ * Paul Henson <henson@acm.org>
+ *
+ * Copyright (c) 1997,1998 Paul Henson -- see COPYRIGHT file for details
+ */
+
 #ifdef __cplusplus
 extern "C" {
 #endif

@@ -34,6 +34,10 @@ File::lockf".
 Changes
 -------
 
+0.20 - Added simple OO wrapper class around locking functionality,
+       including a new method to iteratively attempt to acquire a
+       lock.
+
 0.15 - First publicly released version.
 
 
