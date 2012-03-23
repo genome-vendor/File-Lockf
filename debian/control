@@ -1,0 +1,25 @@
+Source: libfile-lockf-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7), perl
+Maintainer: Ben Oberkfell <boberkfe@>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/File-lockf/
+
+Package: libfile-lockf-perl
+Architecture: any
+Depends: ${perl:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Description: Perl module interface to the lockf system call
+ File-Lockf is an interface to the lockf system call. Perl supports the flock
+ system call natively, but that does not acquire network locks. Perl also
+ supports the fcntl system call, but that is somewhat ugly to use. There are
+ other locking modules available for Perl, but none of them provided what I
+ wanted -- a simple, clean interface to the lockf system call, without any
+ bells or whistles getting in the way.
+ .
+ File-Lockf contains four functions which map directly to the four modes of
+ lockf, and an OO wrapper class that encapulates the basic locking
+ functionality along with an additional utility method that iteratively
+ attempts to acquire a lock.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
