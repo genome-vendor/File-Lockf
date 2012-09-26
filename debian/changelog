@@ -1,3 +1,9 @@
+libfile-lockf-perl (0.20-2~Ubuntu~precise) unstable; urgency=low
+
+  * Compile for precise
+
+ -- Anthony Brummett <abrumemt@genome.wustl.edu>  Wed, 26 Sep 2012 14:44:00 -0500
+
 libfile-lockf-perl (0.20-1) unstable; urgency=low
 
   * Initial Release.
